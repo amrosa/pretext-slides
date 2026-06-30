@@ -3,18 +3,18 @@
 <project ptx-version="2">
   <targets>
     <target
-        name="Day 1 Slides"
+        name="day1"
         source="slides-01.ptx"
         format="revealjs"
         output-filename="index.html"
-        deploy-dir="day-01"
+        deploy-dir="day1"
         />
     <target
-        name="Day 2 Slides"
+        name="day2"
         source="slides-02.ptx"
         format="revealjs"
         output-filename="index.html"
-        deploy-dir="day-02"
+        deploy-dir="day2"
         />
     <target
         name="slides-annotated"
