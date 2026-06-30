@@ -7,14 +7,14 @@
         source="slides-01.ptx"
         format="revealjs"
         output-filename="index.html"
-        deploy-dir="slides"
+        deploy-dir="day-01"
         />
     <target
         name="Day 2 Slides"
         source="slides-02.ptx"
         format="revealjs"
         output-filename="index.html"
-        deploy-dir="slides"
+        deploy-dir="day-02"
         />
     <target
         name="slides-annotated"
