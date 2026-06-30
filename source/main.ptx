@@ -37,7 +37,13 @@
         </titlepage>
     </frontmatter>
     
-    <xi:include href="./slides/slides-01.ptx" />
-    <xi:include href="./slides/slides-02.ptx" />
+  <section>
+    <title>Idk man</title>
+      <slide>
+        <p>
+          some stuff
+        </p>
+      </slide>
+  </section>
 </slideshow>
 </pretext>

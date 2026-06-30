@@ -3,7 +3,15 @@
 <project ptx-version="2">
   <targets>
     <target
-        name="slides"
+        name="Day 1 Slides"
+        source="slides-01.ptx"
+        format="revealjs"
+        output-filename="index.html"
+        deploy-dir="slides"
+        />
+    <target
+        name="Day 2 Slides"
+        source="slides-02.ptx"
         format="revealjs"
         output-filename="index.html"
         deploy-dir="slides"

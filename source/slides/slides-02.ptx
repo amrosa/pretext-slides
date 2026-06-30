@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  
+  <docinfo>
+    <macros>
+      \newcommand{\definiteintegral}[4]{\int_{#1}^{#2}\,#3\,d#4}
+      \newcommand{\Z}{\mathbb{Z}}
+      \newcommand{\R}{\mathbb{R}}
+      \newcommand{\Q}{\mathbb{Q}}
+      \newcommand{\N}{\mathbb{N}}
+      \newcommand{\empset}{\{\}}
+      \DeclareMathOperator{\lcm}{lcm}
+      \newcommand{\set}[1]{\{#1\}}
+    </macros>
+    <latex-image-preamble>
+      \usepackage{tikz}
+      \usetikzlibrary{shapes.geometric,fit,backgrounds}
+    </latex-image-preamble>
+  </docinfo>
+
+<slideshow>
+  <title>PreTeXt</title>
+    <subtitle>demoing stuff</subtitle>
+
+    <frontmatter>
+        <bibinfo>
+            <author>
+                <personname>changing stuff here</personname>
+                <institution>uni</institution>
+            </author>
+            <event>bla bla</event>
+            <date>etcha lele</date>
+        </bibinfo>
+        <titlepage>
+            <titlepage-items />
+        </titlepage>
+    </frontmatter>
+    
 <section>
+    <title>Second Day of Class</title>
     <slide>
         <title>Slide 1</title>
         <p>Content of slide</p>
     </slide>
 </section>
+</slideshow>
+</pretext>
